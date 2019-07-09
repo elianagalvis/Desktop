@@ -1,0 +1,204 @@
+
+body{
+
+}
+header{
+  margin-top: 10px;
+ margin-right: 90px;
+  text-align: right;
+  font-family: helvetica;
+  font-family: 'Playfair Display', serif;
+}
+header h3{
+  margin-top: -14px;
+  color: gray;
+
+  font-family: helvetica;
+  font-weight: normal;
+}
+header p{
+margin-top: -14px;
+}
+
+header nav{
+  position:fixed;
+  float: right;
+  margin-top: -120px;
+  padding-right: 10px;
+  background-color: rgba(216, 171, 150, 0.5);
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 12px;
+}
+header nav a .active{
+  background: #bc5c46;
+  border-radius: 3px;
+}
+
+#home hr{
+  margin-left: 1px;
+  border-color: gray;
+  width: 15%;
+}
+.mariposas{
+  font-family: 'Playfair Display', serif;
+ background:url('../imagenes/mariposa.jpg')no-repeat center top;
+background-size: cover;
+  padding: 40px 0;
+}
+
+#home{
+  margin-left: 50px;
+  padding:180px 0 150px;
+}
+#home p{
+  color: gray;
+  font-family: helvetica;
+}
+
+#sobremi h2{
+  text-align: center;
+}
+#sobremi p{
+  font-family: helvetica;
+  margin-top: 70px;
+  margin-left: 400px;
+}
+
+#sobremi img{
+  float: left;
+  margin: 50px;
+}
+
+.guacamaya{
+  background:url('../imagenes/guacamaya.jpg')no-repeat center top;
+  background-size: cover;
+  padding: 40px 0;
+}
+
+#logros h1  {
+font-family: 'Playfair Display', serif;
+text-align: right;
+margin-right:  50px;
+margin-top: 180px;
+}
+#logros h3  {
+font-family: 'Playfair Display', serif;
+text-align: right;
+margin-right:  50px;
+}
+
+#logros hr{
+  margin-right:  50px;
+  border-color: gray;
+  width: 15%;
+
+  }
+  #logros p{
+    text-align: right;
+    margin-right:  50px;
+    color: gray;
+    font-family: helvetica;
+    margin-bottom: 200px;
+  }
+
+.ganadora img{
+    float: right;
+    margin: 50px;
+    padding-right: 50px;
+  }
+.ganadora p{
+    margin-left: 50px;
+    font-family: helvetica;
+    margin-bottom: 100px;
+  }
+.ballenas{
+  background:url('../imagenes/ballenas.jpg')no-repeat center top;
+  background-size: cover;
+  padding: 40px 0;
+
+}
+#trabajos h1{
+  font-family: 'Playfair Display', serif;
+  text-align: left;
+  margin-left:  50px;
+  margin-top: 180px ;
+
+}
+
+#trabajos h3{
+  font-family: 'Playfair Display', serif;
+  text-align: left;
+  margin-left:   50px;
+}
+#trabajos hr{
+  margin-left: 50px;
+  border-color: gray;
+  width: 15%;
+}
+
+#trabajos p{
+  margin-left: 50px;
+  color: gray;
+  font-family: helvetica;
+  margin-bottom: 200px;
+}
+.delfines{
+  background:url('../imagenes/delfines.jpg')no-repeat center top;
+  background-size: cover;
+  padding: 40px 0;
+}
+
+#proyectos h1{
+  font-family: 'Playfair Display', serif;
+  text-align: right;
+  margin-right:  50px;
+  margin-top: 180px;
+}
+
+#proyectos h3{
+  font-family: 'Playfair Display', serif;
+  text-align: right;
+  margin-right:  50px;
+}
+#proyectos hr{
+  margin-right:  50px;
+  border-color: gray;
+  width: 15%;
+}
+
+#proyectos p{
+  text-align: right;
+  margin-right:  50px;
+  color: gray;
+  font-family: helvetica;
+  margin-bottom: 200px;
+}
+
+.flamingos{
+  background:url('../imagenes/flamingos.jpg')no-repeat center top;
+  background-size: cover;
+  padding: 40px 0;
+}
+
+#contacto h1{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  margin-top: 20px;
+}
+#contacto h3{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+
+}
+#contacto h5{
+  font-family: helvetica;
+  text-align: center;
+}
+
+#contacto p{
+  font-family: helvetica;
+  margin-bottom: 400px;
+}
