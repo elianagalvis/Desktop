@@ -1,10 +1,13 @@
-
-body{
-
+* {
+  box-sizing: border-box;
 }
+
+html, body {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
 header{
-  margin-top: 10px;
- margin-right: 90px;
   text-align: right;
   font-family: helvetica;
   font-family: 'Playfair Display', serif;
@@ -20,11 +23,9 @@ header p{
 margin-top: -14px;
 }
 
-header nav{
-  position:fixed;
-  float: right;
-  margin-top: -120px;
-  padding-right: 10px;
+header nav {
+  /* margin-top: -120px; */
+  padding: 7px 15px;
   background-color: rgba(216, 171, 150, 0.5);
 }
 header nav a {
@@ -37,6 +38,10 @@ header nav a .active{
   border-radius: 3px;
 }
 
+header .header-info {
+  padding: 10px 20px;
+}
+
 #home hr{
   margin-left: 1px;
   border-color: gray;
@@ -46,11 +51,16 @@ header nav a .active{
   font-family: 'Playfair Display', serif;
  background:url('../imagenes/mariposa.jpg')no-repeat center top;
 background-size: cover;
-  padding: 40px 0;
+  padding: 40px 20px;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #home{
-  margin-left: 50px;
   padding:180px 0 150px;
 }
 #home p{
@@ -58,18 +68,24 @@ background-size: cover;
   font-family: helvetica;
 }
 
-#sobremi h2{
+#sobremi h2 {
   text-align: center;
+  margin-bottom: 40px;
 }
-#sobremi p{
+#sobremi .text {
+  padding: 20px;
+}
+#sobremi p {
   font-family: helvetica;
-  margin-top: 70px;
-  margin-left: 400px;
 }
 
-#sobremi img{
-  float: left;
-  margin: 50px;
+#sobremi .sobremi-img {
+  text-align: center;
+}
+
+#sobremi img {
+  max-width: 250px;
+  margin: 0 auto;
 }
 
 .guacamaya{
@@ -201,4 +217,23 @@ margin-right:  50px;
 #contacto p{
   font-family: helvetica;
   margin-bottom: 400px;
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  #sobremi img {
+    float: left;
+    padding: 15px 40px 30px 15px;
+  }
+
+  .container {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
