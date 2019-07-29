@@ -9,18 +9,18 @@ html, body {
 
 header{
   text-align: center;
-
   font-family: 'Playfair Display', serif;
 }
+header h1{
+  font-family: 'Mr De Haviland', cursive;
+  font-size: 50px;
+}
 header h3{
-  margin-top: -14px;
-  color: gray;
-
-  font-family: helvetica;
-  font-weight: normal;
+  margin-top: -12px;
+  font-size: 14px;
 }
 header p{
-margin-top: -14px;
+margin-top: -10px;
 }
 
 header nav {
@@ -32,6 +32,7 @@ header nav a {
   color: white;
   text-decoration: none;
   margin-left: 12px;
+  font-size: 10px;
 }
 header nav a .active{
   background: #bc5c46;
@@ -42,6 +43,7 @@ header .header-info {
   padding: 10px 20px;
 }
 
+            /* home contenido dentro de la imagen*/
 #home hr{
   margin-left: 1px;
   border-color: gray;
@@ -54,29 +56,39 @@ background-size: cover;
   padding: 40px 20px;
 }
 
-.container {
+#home .container {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
 #home{
-  padding:180px 0 150px;
+  padding:100px 0 150px;
 }
 #home p{
-  color: gray;
-  font-family: helvetica;
+
+  font-family: 'Darker Grotesque', sans-serif;
+}
+#home .fondo{
+  background:rgba(255, 255, 255, 0.5);
 }
 
+           /* sobre mí*/
 #sobremi h2 {
+  font-family: 'Playfair Display', serif;
   text-align: center;
   margin-bottom: 40px;
 }
 #sobremi .text {
-  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
+#sobremi h5{
+  font-family: 'Playfair Display', serif;
+}
+
 #sobremi p {
-  font-family: helvetica;
+  font-family: 'Darker Grotesque', sans-serif;
 }
 
 #sobremi .sobremi-img {
@@ -88,111 +100,144 @@ background-size: cover;
   margin: 0 auto;
 }
 
-.guacamaya{
-  background:url('../imagenes/guacamaya.jpg')no-repeat center top;
-  background-size: cover;
-  padding: 40px 0;
-}
 
-#logros h1  {
-font-family: 'Playfair Display', serif;
-text-align: right;
-margin-right:  50px;
-margin-top: 180px;
-}
-#logros h3  {
-font-family: 'Playfair Display', serif;
-text-align: right;
-margin-right:  50px;
-}
+            /* logros contenido dentro de la imagen*/
 
 #logros hr{
   margin-right:  50px;
   border-color: gray;
   width: 15%;
 
-  }
-  #logros p{
-    text-align: right;
-    margin-right:  50px;
-    color: gray;
-    font-family: helvetica;
-    margin-bottom: 200px;
-  }
+}
 
-.ganadora img{
-    float: right;
-    margin: 50px;
-    padding-right: 50px;
-  }
-.ganadora p{
-    margin-left: 50px;
-    font-family: helvetica;
-    margin-bottom: 100px;
-  }
-.ballenas{
-  background:url('../imagenes/ballenas.jpg')no-repeat center top;
+.guacamaya{
+  font-family: 'Playfair Display', serif;
+  background:url('../imagenes/guacamaya.jpg')no-repeat center top;
   background-size: cover;
-  padding: 40px 0;
-
-}
-#trabajos h1{
-  font-family: 'Playfair Display', serif;
-  text-align: left;
-  margin-left:  50px;
-  margin-top: 180px ;
-
+  padding: 40px 20px;
+  text-align: right;
 }
 
-#trabajos h3{
-  font-family: 'Playfair Display', serif;
-  text-align: left;
-  margin-left:   50px;
+#logros .container2{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+#logros{
+    padding:100px 0 150px;
+}
+
+
+  #logros p{
+    font-family: 'Darker Grotesque', sans-serif;
+
+  }
+  #logros .fondo2{
+  background:rgba(255, 255, 255, 0.5);
+  }
+
+                    /* logros parte blanca de abajo*/
+  #logros2 .carton {
+    text-align: center;
+  }
+#logros2 img{
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+#logros2 p{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Darker Grotesque', sans-serif;
+
+  }
+  #logros2 .diploma{
+    text-align: center;
+  }
+
+       /* trabajos contenido dentro de la imagen */
 #trabajos hr{
   margin-left: 50px;
   border-color: gray;
   width: 15%;
 }
 
-#trabajos p{
-  margin-left: 50px;
-  color: gray;
-  font-family: helvetica;
-  margin-bottom: 200px;
-}
-.delfines{
-  background:url('../imagenes/delfines.jpg')no-repeat center top;
+.ballenas{
+  font-family: 'Playfair Display', serif;
+  background:url('../imagenes/ballenas.jpg')no-repeat center top;
   background-size: cover;
-  padding: 40px 0;
+  padding: 40px 20px;
+
 }
 
-#proyectos h1{
-  font-family: 'Playfair Display', serif;
-  text-align: right;
-  margin-right:  50px;
-  margin-top: 180px;
+#trabajos .container3{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#proyectos h3{
-  font-family: 'Playfair Display', serif;
-  text-align: right;
-  margin-right:  50px;
+#trabajos{
+  padding:100px 0 150px;
 }
+
+#trabajos p{
+  font-family: 'Darker Grotesque', sans-serif;
+
+}
+#trabajos .fondo3{
+background:rgba(255, 255, 255, 0.5);
+}
+
+            /* estilos de la explicacion de los trabajos*/
+/* Mario Hernandez*/
+
+#trabajomh h3{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#trabajomh p{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+
+           /* proyectos*/
 #proyectos hr{
   margin-right:  50px;
   border-color: gray;
   width: 15%;
+  }
+
+.delfines{
+  font-family: 'Playfair Display', serif;
+  background:url('../imagenes/delfines.jpg')no-repeat center top;
+  background-size: cover;
+  padding: 40px 20px;
+  text-align: right;
 }
+
+#proyectos .container4{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#proyectos{
+  padding:100px 0 150px;
+}
+
 
 #proyectos p{
-  text-align: right;
-  margin-right:  50px;
-  color: gray;
-  font-family: helvetica;
-  margin-bottom: 200px;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+#proyectos .fondo4{
+background:rgba(255, 255, 255, 0.5);
 }
 
+      /* contacto*/
 .flamingos{
   background:url('../imagenes/flamingos.jpg')no-repeat center top;
   background-size: cover;
