@@ -269,7 +269,22 @@ background:rgba(255, 255, 255, 0.5);
   background-color: rgba(216, 171, 150, 0.5);
   text-align: center;
 }
-
+.piera1{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: white;
+  background:url('../imagenes/piera.png.jpg')no-repeat center top;
+  background-size: cover;
+  padding: 40px 0;
+}
+.piera2{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: white;
+  background:url('../imagenes/piera2.jpg')no-repeat center top;
+  background-size: cover;
+  padding: 40px 0;
+}
 /*Premio mario hernandez*/
 .premiomh h3{
   font-family: 'Playfair Display', serif;
@@ -279,6 +294,30 @@ background:rgba(255, 255, 255, 0.5);
 
 .premiomh p{
   margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+.animales{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: white;
+  background:url('../imagenes/animales.jpg')no-repeat center top;
+  background-size: cover;
+  padding: 40px 0;
+}
+.animales p{
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+.caja{
+  font-family: 'Playfair Display', serif;
+  background:url('../imagenes/cajamh.jpg')no-repeat center top;
+  background-size: cover;
+  padding: 40px 0;
+  margin-bottom: 50px;
+}
+
+.lista-animales{
   margin-right: 50px;
   font-family: 'Darker Grotesque', sans-serif;
 }
