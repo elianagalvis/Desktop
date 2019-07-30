@@ -70,7 +70,7 @@ background-size: cover;
   font-family: 'Darker Grotesque', sans-serif;
 }
 #home .fondo{
-  background:rgba(255, 255, 255, 0.5);
+  background:rgba(255, 255, 255, 0.8);
 }
 
            /* sobre mí*/
@@ -134,7 +134,7 @@ background-size: cover;
 
   }
   #logros .fondo2{
-  background:rgba(255, 255, 255, 0.5);
+  background:rgba(255, 255, 255, 0.8);
   }
 
                     /* logros parte blanca de abajo*/
@@ -186,7 +186,7 @@ background-size: cover;
 
 }
 #trabajos .fondo3{
-background:rgba(255, 255, 255, 0.5);
+background:rgba(255, 255, 255, 0.8);
 }
 
             /* estilos de la explicacion de los trabajos*/
@@ -249,7 +249,7 @@ background:rgba(255, 255, 255, 0.5);
   font-family: 'Darker Grotesque', sans-serif;
 }
 #proyectos .fondo4{
-background:rgba(255, 255, 255, 0.5);
+background:rgba(255, 255, 255, 0.8);
 }
 
 /*PROYECTOS EMPLICACIÓN */
@@ -342,7 +342,7 @@ text-align: center;
 }
 
 #contacto p{
-  background:rgba(255, 255, 255, 0.5);
+  background:rgba(255, 255, 255, 0.8);
   font-family: 'Darker Grotesque', sans-serif;
   margin-bottom: 50px;
 
