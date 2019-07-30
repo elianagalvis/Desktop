@@ -324,29 +324,28 @@ background:rgba(255, 255, 255, 0.5);
 
       /* contacto*/
 .flamingos{
+  font-family: 'Playfair Display', serif;
+  padding: 40px 20px;
   background:url('../imagenes/flamingos.jpg')no-repeat center top;
   background-size: cover;
-  padding: 40px 0;
+text-align: center;
 }
 
-#contacto h1{
-  font-family: 'Playfair Display', serif;
-  text-align: center;
-  margin-top: 20px;
-}
 #contacto h3{
-  font-family: 'Playfair Display', serif;
-  text-align: center;
+  font-family: 'Mr De Haviland', cursive;
 
 }
 #contacto h5{
-  font-family: helvetica;
-  text-align: center;
+  font-family: 'Darker Grotesque', sans-serif;
+  margin-bottom: 50px;
+
 }
 
 #contacto p{
-  font-family: helvetica;
-  margin-bottom: 400px;
+  background:rgba(255, 255, 255, 0.5);
+  font-family: 'Darker Grotesque', sans-serif;
+  margin-bottom: 50px;
+
 }
 
 
