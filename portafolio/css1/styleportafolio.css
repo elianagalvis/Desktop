@@ -47,7 +47,7 @@ header .header-info {
 #home hr{
   margin-left: 1px;
   border-color: gray;
-  width: 15%;
+  width: 35%;
 }
 .mariposas{
   font-family: 'Playfair Display', serif;
@@ -104,9 +104,9 @@ background-size: cover;
             /* logros contenido dentro de la imagen*/
 
 #logros hr{
-  margin-right:  50px;
+  margin-right: 1px;
   border-color: gray;
-  width: 15%;
+  width: 35%;
 
 }
 
@@ -158,9 +158,9 @@ background-size: cover;
 
        /* trabajos contenido dentro de la imagen */
 #trabajos hr{
-  margin-left: 50px;
+  margin-left: 1px;
   border-color: gray;
-  width: 15%;
+  width: 35%;
 }
 
 .ballenas{
@@ -195,7 +195,7 @@ background:rgba(255, 255, 255, 0.5);
 #trabajomh h3{
   font-family: 'Playfair Display', serif;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 #trabajomh p{
   margin-left: 50px;
@@ -204,11 +204,25 @@ background:rgba(255, 255, 255, 0.5);
 }
 
 
-           /* proyectos*/
+
+/*Go Talent*/
+#trabajogt h3{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#trabajogt p{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+           /* proyectos LO QUE VA DENTRO DE LA IMAGEN DE DELFINES*/
 #proyectos hr{
-  margin-right:  50px;
+  margin-right:  1px;
   border-color: gray;
-  width: 15%;
+  width: 35%;
   }
 
 .delfines{
@@ -217,6 +231,7 @@ background:rgba(255, 255, 255, 0.5);
   background-size: cover;
   padding: 40px 20px;
   text-align: right;
+  margin-top: 10px;
 }
 
 #proyectos .container4{
@@ -235,6 +250,37 @@ background:rgba(255, 255, 255, 0.5);
 }
 #proyectos .fondo4{
 background:rgba(255, 255, 255, 0.5);
+}
+
+/*PROYECTOS EMPLICACIÓN */
+/*tesis*/
+.tesis h3{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tesis p{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+#video {
+  background-color: rgba(216, 171, 150, 0.5);
+  text-align: center;
+}
+
+/*Premio mario hernandez*/
+.premiomh h3{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.premiomh p{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Darker Grotesque', sans-serif;
 }
 
       /* contacto*/
@@ -263,6 +309,9 @@ background:rgba(255, 255, 255, 0.5);
   font-family: helvetica;
   margin-bottom: 400px;
 }
+
+
+            /* ajuste de tamaños*/
 
 @media (min-width: 576px) {
   body {
