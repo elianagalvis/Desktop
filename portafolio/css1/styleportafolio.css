@@ -141,10 +141,10 @@ background-size: cover;
   #logros2 .carton {
     text-align: center;
   }
-#logros2 img{
-  max-width: 250px;
-  margin: 0 auto;
-}
+  #logros2 img{
+    max-width: 300px;
+    margin: 0 auto;
+  }
 
 #logros2 p{
     margin-left: 50px;
@@ -277,6 +277,9 @@ background:rgba(255, 255, 255, 0.8);
   background-size: cover;
   padding: 40px 0;
 }
+.piera1 p{
+  margin-top: 40px;
+}
 .piera2{
   font-family: 'Playfair Display', serif;
   text-align: center;
@@ -284,6 +287,9 @@ background:rgba(255, 255, 255, 0.8);
   background:url('../imagenes/piera2.jpg')no-repeat center top;
   background-size: cover;
   padding: 40px 0;
+}
+.piera2 p{
+  margin-top: 40px;
 }
 /*Premio mario hernandez*/
 .premiomh h3{
@@ -313,10 +319,12 @@ background:rgba(255, 255, 255, 0.8);
   font-family: 'Playfair Display', serif;
   background:url('../imagenes/cajamh.jpg')no-repeat center top;
   background-size: cover;
-  padding: 40px 0;
+  text-align: center;
   margin-bottom: 50px;
 }
-
+.caja p{
+  margin-top: 120px;
+}
 .lista-animales{
   margin-right: 50px;
   font-family: 'Darker Grotesque', sans-serif;
@@ -350,6 +358,7 @@ text-align: center;
 
 
             /* ajuste de tamaños*/
+/*576 tamaño del celular*/
 
 @media (min-width: 576px) {
   body {
@@ -357,15 +366,392 @@ text-align: center;
   }
 }
 
+@media (min-width: 576px) {
+  p {
+    font-size: 23px;
+  }
+
+.container {
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+
+
+/*768 tamaño ipad*/
+
+/* menú*/
+@media (min-width: 768px){
+  header nav a {
+    font-size: 18px;
+  }
+}
+
+/*header*/
+
+
+@media (min-width: 768px){
+  header h1 {
+    font-size: 72px;
+  }
+}
+@media (min-width: 768px){
+  header h3 {
+    font-size: 20px;
+  }
+}
+
+/* sobre mi*/
+@media (min-width: 768px) {
+  #sobremi h5{
+    font-size: 24px;
+  }
+
 @media (min-width: 768px) {
   #sobremi img {
     float: left;
     padding: 15px 40px 30px 15px;
   }
+}
 
-  .container {
-    width: 768px;
-    margin-left: auto;
-    margin-right: auto;
+
+/*trabajos mh*/
+@media (min-width: 768px) {
+  #trabajomh h3{
+    font-size: 30px;
+  }
+
+  @media (min-width: 768px) {
+    #trabajomh .foto-empaque {
+      padding: 0 80px 0 80px;
+    }
+}
+@media (min-width: 768px) {
+  #trabajomh .mhotros{
+    font-size: 23px;
+    font-family: 'Darker Grotesque', sans-serif;
+
+  }
+  /*trabajos gt*/
+  @media (min-width: 768px) {
+    #trabajogt h3{
+      font-size: 30px;
+    }
+
+    @media (min-width: 768px) {
+      #trabajogt .foto-publicidad {
+        padding: 0 80px 0 80px;
+      }
+  }
+
+/*proyectos*/
+@media (min-width: 768px) {
+  .tesis h3{
+    font-size: 30px;
+  }
+
+@media (min-width: 768px) {
+    .piera1 p{
+      margin-top: 190px;
+    }
+@media (min-width: 768px) {
+      .piera2 p{
+        margin-top: 190px;
+      }
+}
+
+/* Premio mh*/
+@media (min-width: 768px) {
+  .premiomh h3{
+    font-size: 30px;
+  }
+  @media (min-width: 768px) {
+        .animales p{
+          margin-top: 190px;
+        }
+  }
+  @media (min-width: 768px) {
+   .foto-animales {
+      padding: 0 80px 0 80px;
+    }
+}
+
+@media (min-width: 768px) {
+      .lista-animales{
+        font-size: 23px;
+      }
+}
+@media (min-width: 768px) {
+  .caja h5{
+    font-size: 30px;
+  }
+@media (min-width: 768px) {
+      .caja p{
+        margin-top: 250px;
+      }
+}
+
+/*contacto*/
+@media (min-width: 768px) {
+  .flamingos h1{
+    font-size: 30px;
+  }
+
+  @media (min-width: 768px) {
+    .flamingos h3{
+      font-size: 50px;
+    }
+
+    /*1280 computador1*/
+    @media (min-width: 1280px){
+      header nav a {
+        font-size: 16px;
+      }
+    }
+
+    /*header*/
+    @media (min-width: 1280px) {
+      p {
+        font-size: 18px;
+      }
+
+    @media (min-width: 1280px){
+      header h1 {
+        font-size: 72px;
+      }
+    }
+    @media (min-width: 1280px){
+      header h3 {
+        font-size: 20px;
+      }
+    }
+
+    /*home*/
+    @media (min-width: 1280px){
+      #home {
+        padding-left: 130px;
+        padding-right: 130px;
+      }
+    }
+
+    /* sobre mí*/
+    @media (min-width: 1280px){
+      #sobremi {
+        padding-left: 130px;
+        padding-right: 130px;
+      }
+    }
+/*logos*/
+
+@media (min-width: 1280px){
+  #logros{
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+@media (min-width: 1280px){
+  #logros2{
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+
+@media (min-width: 1280px){
+  #trabajos {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+@media (min-width: 1280px){
+  #trabajomh {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+@media (min-width: 1280px) {
+  #trabajomh .foto-empaque{
+    padding: 0 300px 0 300px;
+  }
+}
+
+/*GoTalent*/
+@media (min-width: 1280px){
+  #trabajogt {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+@media (min-width: 1280px) {
+  #trabajomh .mhotros{
+    font-size: 20px;
+    font-family: 'Darker Grotesque', sans-serif;
+
+  }
+  @media (min-width: 1280px) {
+    #trabajogt .foto-publicidad{
+      padding: 0 300px 0 300px;
+    }
+  }
+
+/*proyectos*/
+@media (min-width: 1280px){
+  #proyectos{
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+
+@media (min-width: 1280px){
+  .tesis {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+@media (min-width: 1280px) {
+    .piera1 p{
+      margin-top: 320px;
+    }
+}
+@media (min-width: 1280px) {
+      .piera2 p{
+        margin-top: 320px;
+      }
+}
+ }
+
+ @media (min-width: 1280px){
+   .premiomh {
+     padding-left: 130px;
+     padding-right: 130px;
+   }
+ }
+ @media (min-width: 1280px) {
+       .caja p{
+         margin-top: 450px;
+       }
+ }
+
+ @media (min-width: 1280px){
+  .flamingos{
+     padding-left: 130px;
+     padding-right: 130px;
+   }
+ }
+/*1605 computador*/
+/*home*/
+
+@media (min-width: 1605px) {
+  p {
+    font-size: 21px;
+  }
+@media (min-width: 1605px){
+  #home {
+    padding-left: 1px;
+
+  }
+}
+/*sobre mí*/
+@media (min-width: 1605px){
+  #sobremi {
+    padding-left: 190px;
+    padding-right: 190px;
+  }
+}
+/*logros*/
+@media (min-width: 1605px){
+  #logros{
+    padding-left: 190px;
+    padding-right: 190px;
+  }
+}
+@media (min-width: 1605px){
+  #logros2{
+    padding-left: 190px;
+    padding-right: 190px;
+  }
+}
+
+/*trabajo*/
+@media (min-width: 1605px){
+  #trabajos{
+    padding-left: 190px;
+    padding-right: 190px;
+  }
+}
+@media (min-width: 1605px){
+  #trabajomh{
+    padding-left: 190px;
+    padding-right: 190px;
+  }
+}
+@media (min-width: 1605px) {
+  #trabajomh .foto-empaque{
+    padding: 0 400px 0 400px;
+  }
+}
+
+@media (min-width: 1605px) {
+  #trabajomh .mhotros{
+    font-size: 20px;
+    font-family: 'Darker Grotesque', sans-serif;
+
+  }
+  @media (min-width: 1605px) {
+    #trabajogt .foto-publicidad{
+      padding: 0 450px 0 450px;
+    }
+  }
+
+   /*proyectos*/
+
+   @media (min-width: 1605px){
+     #proyectos{
+       padding-left: 190px;
+       padding-right: 190px;
+     }
+   }
+   @media (min-width: 1605px){
+     .tesis{
+       padding-left: 190px;
+       padding-right: 190px;
+     }
+   }
+   @media (min-width: 1605px) {
+       .piera1 p{
+         margin-top: 420px;
+       }
+   }
+   @media (min-width: 1605px) {
+         .piera2 p{
+           margin-top: 420px;
+         }
+   }
+    }
+
+/*premiomh*/
+@media (min-width: 1605px){
+  .premiomh{
+    padding-left: 190px;
+    padding-right: 190px;
+  }
+}
+@media (min-width: 1280px) {
+      .caja p{
+        margin-top: 550px;
+      }
+}
+@media (min-width: 1605px){
+  .caja {
+    padding-left: 190px;
+    padding-right: 190px;
+  }
+}
+
+@media (min-width: 1605px){
+  .flamingos{
+    padding-left: 190px;
+    padding-right: 190px;
   }
 }
